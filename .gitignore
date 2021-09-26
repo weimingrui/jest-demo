@@ -1,0 +1,25 @@
+node_modules/
+dist/
+
+# Editor directories and files
+tests/**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+tests/**/coverage/
+
+tests/**/coverage/
+yarn.lock
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+webpack.fuck.vuecli.config.js
+admin.platform.code-workspace
+*.local
+
+.env.development.local
