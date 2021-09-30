@@ -1,6 +1,6 @@
 
 function fetchData(callback){
-  setTimeout(callback('peanut butter'), 2000)
+  setTimeout(()=>callback('peanut butter'), 2000)
 }
 /*
 错误写法
