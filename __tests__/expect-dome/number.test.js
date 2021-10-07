@@ -1,3 +1,10 @@
+/*
+ * @Author: Arthur
+ * @Date: 2021-10-01 10:19:01
+ * @LastEditors: Arthur
+ * @LastEditTime: 2021-10-04 17:57:16
+ * @Description: file content
+ */
 test('two plus two', () => {
   const value = 2 + 2;
   expect(value).toBeGreaterThan(3);
@@ -8,4 +15,9 @@ test('two plus two', () => {
   // toBe and toEqual are equivalent for numbers
   expect(value).toBe(4);
   expect(value).toEqual(4);
+});
+test('adding floating point numbers', () => {
+  const value = 0.1 + 0.2;
+  //expect(value).toBe(0.3);           This won't work because of rounding error
+  expect(value).toBeCloseTo(0.3); // This works.
 });
